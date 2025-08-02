@@ -18,12 +18,15 @@ This system processes sensor data from multiple gardens, compares readings again
 
 ## File Structure
 main.py # Entry point and CLI interface
-src/ ├── importer.py # Data import and parsing from log files 
-     └── analyzer.py # Analysis engine and reporting
 
-data/ ├── garden_profiles.json # Optimal growing conditions for vegetables 
-      ├── device_map_extended.json # Sensor configuration and mappings
-      └── plant_sensor_uart_full.log # Raw sensor data logs
+src/ 
+├── importer.py # Data import and parsing from log files 
+└── analyzer.py # Analysis engine and reporting
+
+data/ 
+├── garden_profiles.json # Optimal growing conditions for vegetables 
+├── device_map_extended.json # Sensor configuration and mappings
+└── plant_sensor_uart_full.log # Raw sensor data logs
 
 ## Installation
 
