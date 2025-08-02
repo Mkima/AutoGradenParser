@@ -2,3 +2,4 @@ data/device_map*.json
 data/plant_sensor_uart.log
 data/plant_sensor_uart_extended.log
 .idea/
+*/__pycache__
