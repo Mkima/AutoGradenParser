@@ -1,5 +1,5 @@
 # Garden Irrigation Analysis System
-![CI](https://github.com/mkima/AutoGradenParser/actions/workflows/cicd.yml/badge.svg)
+![CI](https://github.com/mkima/AutoGradenParser/actions/workflows/cicd.yaml/badge.svg)
 A comprehensive system for analyzing garden sensor data and providing irrigation recommendations based on optimal growing conditions for different vegetables.
 
 ## Overview
