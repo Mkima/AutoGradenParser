@@ -17,9 +17,8 @@ This system processes sensor data from multiple gardens, compares readings again
 - **Time Series Analysis**: Track garden conditions over time
 
 ## File Structure
-
-src/ ├── main.py # Entry point and CLI interface 
-     ├── importer.py # Data import and parsing from log files 
+main.py # Entry point and CLI interface
+src/ ├── importer.py # Data import and parsing from log files 
      └── analyzer.py # Analysis engine and reporting
 
 data/ ├── garden_profiles.json # Optimal growing conditions for vegetables 
