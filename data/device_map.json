@@ -1,0 +1,32 @@
+{
+  "1001": {
+    "id": "1001",
+    "name": "Temperature Sensor",
+    "model": "TMP-36"
+  },
+  "1002": {
+    "id": "1002",
+    "name": "Soil Moisture Sensor",
+    "model": "SM-110"
+  },
+  "1003": {
+    "id": "1003",
+    "name": "Light Sensor",
+    "model": "LUX-SENSOR-V2"
+  },
+  "1004": {
+    "id": "1004",
+    "name": "Humidity Sensor",
+    "model": "HUM-AQ21"
+  },
+  "1005": {
+    "id": "1005",
+    "name": "CO2 Sensor",
+    "model": "NDIR-500"
+  },
+  "2001": {
+    "id": "2001",
+    "name": "Irrigation Pump A",
+    "model": "PUMP-XT-900"
+  }
+}

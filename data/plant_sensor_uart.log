@@ -1,0 +1,285 @@
+[2025-07-31 06:00:00.000] INFO  SensorHub: Init complete. Firmware v1.3.2
+[2025-07-31 06:00:00.000] DEBUG ADC[id=1001]: Temperature sensor initialized on channel 0
+[2025-07-31 06:00:00.000] DEBUG ADC[id=1002]: Moisture sensor initialized on channel 1
+[2025-07-31 06:00:00.000] DEBUG ADC[id=1003]: Light sensor initialized on channel 2
+[2025-07-31 06:00:00.000] DEBUG ADC[id=1004]: Humidity sensor initialized on channel 3
+[2025-07-31 06:00:00.000] DEBUG ADC[id=1005]: CO2 sensor initialized on channel 4
+[2025-07-31 06:00:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=46.5%, Light=578lux, Humidity=51.7%, CO2=551ppm
+[2025-07-31 06:00:05.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:00:05.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:00:05.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:00:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=37.9%, Light=651lux, Humidity=69.2%, CO2=605ppm
+[2025-07-31 06:00:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=45.6%, Light=637lux, Humidity=41.7%, CO2=437ppm
+[2025-07-31 06:00:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=38.7%, Light=549lux, Humidity=48.1%, CO2=589ppm
+[2025-07-31 06:00:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.9C, Moisture=44.5%, Light=688lux, Humidity=51.5%, CO2=489ppm
+[2025-07-31 06:00:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=47.9%, Light=526lux, Humidity=42.0%, CO2=443ppm
+[2025-07-31 06:00:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.3C, Moisture=42.5%, Light=569lux, Humidity=60.6%, CO2=402ppm
+[2025-07-31 06:00:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.7C, Moisture=46.2%, Light=508lux, Humidity=52.7%, CO2=520ppm
+[2025-07-31 06:00:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=39.6%, Light=644lux, Humidity=65.1%, CO2=362ppm
+[2025-07-31 06:00:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.3C, Moisture=43.8%, Light=680lux, Humidity=49.4%, CO2=418ppm
+[2025-07-31 06:00:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=37.0%, Light=618lux, Humidity=59.8%, CO2=396ppm
+[2025-07-31 06:00:55.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 37.0%
+[2025-07-31 06:01:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=39.0%, Light=696lux, Humidity=56.6%, CO2=475ppm
+[2025-07-31 06:01:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=37.4%, Light=548lux, Humidity=43.7%, CO2=637ppm
+[2025-07-31 06:01:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.5C, Moisture=39.0%, Light=539lux, Humidity=55.4%, CO2=352ppm
+[2025-07-31 06:01:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=42.9%, Light=556lux, Humidity=63.8%, CO2=411ppm
+[2025-07-31 06:01:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=41.3%, Light=583lux, Humidity=44.9%, CO2=583ppm
+[2025-07-31 06:01:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.7C, Moisture=37.5%, Light=681lux, Humidity=65.7%, CO2=754ppm
+[2025-07-31 06:01:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=45.9%, Light=530lux, Humidity=63.5%, CO2=446ppm
+[2025-07-31 06:01:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=45.3%, Light=570lux, Humidity=59.8%, CO2=779ppm
+[2025-07-31 06:01:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=42.7%, Light=693lux, Humidity=59.8%, CO2=386ppm
+[2025-07-31 06:01:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.3C, Moisture=38.0%, Light=700lux, Humidity=69.9%, CO2=795ppm
+[2025-07-31 06:01:45.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 38.0%
+[2025-07-31 06:01:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.9C, Moisture=44.9%, Light=597lux, Humidity=57.6%, CO2=427ppm
+[2025-07-31 06:01:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.5C, Moisture=47.0%, Light=666lux, Humidity=58.2%, CO2=702ppm
+[2025-07-31 06:02:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.6C, Moisture=37.3%, Light=605lux, Humidity=49.5%, CO2=651ppm
+[2025-07-31 06:02:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=47.4%, Light=699lux, Humidity=66.1%, CO2=431ppm
+[2025-07-31 06:02:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=39.3%, Light=573lux, Humidity=53.7%, CO2=796ppm
+[2025-07-31 06:02:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=39.2%, Light=642lux, Humidity=66.5%, CO2=538ppm
+[2025-07-31 06:02:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=41.1%, Light=501lux, Humidity=67.2%, CO2=659ppm
+[2025-07-31 06:02:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=38.7%, Light=578lux, Humidity=55.2%, CO2=513ppm
+[2025-07-31 06:02:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.3C, Moisture=43.8%, Light=662lux, Humidity=62.0%, CO2=730ppm
+[2025-07-31 06:02:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=37.6%, Light=613lux, Humidity=53.4%, CO2=530ppm
+[2025-07-31 06:02:35.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 37.6%
+[2025-07-31 06:02:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=35.1%, Light=559lux, Humidity=62.5%, CO2=414ppm
+[2025-07-31 06:02:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.6C, Moisture=41.6%, Light=679lux, Humidity=49.0%, CO2=767ppm
+[2025-07-31 06:02:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.3C, Moisture=41.6%, Light=530lux, Humidity=40.6%, CO2=361ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:02:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=41.5%, Light=665lux, Humidity=43.8%, CO2=696ppm
+[2025-07-31 06:03:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=39.0%, Light=557lux, Humidity=54.3%, CO2=653ppm
+[2025-07-31 06:03:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=47.9%, Light=622lux, Humidity=66.8%, CO2=648ppm
+[2025-07-31 06:03:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.0C, Moisture=39.4%, Light=548lux, Humidity=61.0%, CO2=574ppm
+[2025-07-31 06:03:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.5C, Moisture=40.7%, Light=622lux, Humidity=40.3%, CO2=512ppm
+[2025-07-31 06:03:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=46.3%, Light=515lux, Humidity=45.0%, CO2=591ppm
+[2025-07-31 06:03:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=40.7%, Light=554lux, Humidity=68.7%, CO2=396ppm
+[2025-07-31 06:03:25.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:03:25.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:03:25.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[2025-07-31 06:03:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=36.3%, Light=676lux, Humidity=50.8%, CO2=472ppm
+[2025-07-31 06:03:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=36.6%, Light=600lux, Humidity=53.5%, CO2=670ppm
+[2025-07-31 06:03:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=38.7%, Light=556lux, Humidity=55.7%, CO2=413ppm
+[2025-07-31 06:03:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=40.8%, Light=582lux, Humidity=49.0%, CO2=362ppm
+[2025-07-31 06:03:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=35.3%, Light=675lux, Humidity=64.8%, CO2=644ppm
+[2025-07-31 06:03:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=45.1%, Light=625lux, Humidity=49.0%, CO2=462ppm
+[2025-07-31 06:04:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=39.8%, Light=603lux, Humidity=49.2%, CO2=379ppm
+[2025-07-31 06:04:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=41.6%, Light=655lux, Humidity=41.6%, CO2=704ppm
+[2025-07-31 06:04:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=35.4%, Light=557lux, Humidity=50.5%, CO2=779ppm
+[2025-07-31 06:04:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.6C, Moisture=42.7%, Light=583lux, Humidity=59.2%, CO2=514ppm
+[2025-07-31 06:04:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=43.6%, Light=505lux, Humidity=51.7%, CO2=468ppm
+[2025-07-31 06:04:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.6C, Moisture=46.3%, Light=519lux, Humidity=50.7%, CO2=491ppm
+[2025-07-31 06:04:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=37.7%, Light=506lux, Humidity=41.1%, CO2=369ppm
+[2025-07-31 06:04:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=39.3%, Light=533lux, Humidity=59.9%, CO2=381ppm
+[2025-07-31 06:04:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.7C, Moisture=44.6%, Light=527lux, Humidity=55.0%, CO2=761ppm
+[2025-07-31 06:04:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=48.0%, Light=682lux, Humidity=46.6%, CO2=728ppm
+[2025-07-31 06:04:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=36.1%, Light=575lux, Humidity=66.2%, CO2=400ppm
+[2025-07-31 06:04:50] THISISGARBAGE
+[2025-07-31 06:04:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=42.9%, Light=526lux, Humidity=63.2%, CO2=537ppm
+[2025-07-31 06:05:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=43.0%, Light=514lux, Humidity=54.4%, CO2=720ppm
+[2025-07-31 06:05:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.9C, Moisture=37.9%, Light=643lux, Humidity=48.1%, CO2=764ppm
+[2025-07-31 06:05:05.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 37.9%
+[2025-07-31 06:05:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=42.2%, Light=624lux, Humidity=53.7%, CO2=583ppm
+[2025-07-31 06:05:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=36.1%, Light=627lux, Humidity=63.7%, CO2=383ppm
+[2025-07-31 06:05:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=42.3%, Light=586lux, Humidity=60.2%, CO2=497ppm
+[2025-07-31 06:05:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=47.5%, Light=700lux, Humidity=48.7%, CO2=666ppm
+[2025-07-31 06:05:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.7C, Moisture=40.5%, Light=533lux, Humidity=68.0%, CO2=613ppm
+[2025-07-31 06:05:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=37.2%, Light=564lux, Humidity=42.9%, CO2=393ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:05:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=40.2%, Light=617lux, Humidity=56.5%, CO2=559ppm
+[2025-07-31 06:05:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=47.0%, Light=575lux, Humidity=52.2%, CO2=713ppm
+[2025-07-31 06:05:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=36.3%, Light=680lux, Humidity=56.4%, CO2=482ppm
+[2025-07-31 06:05:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=36.6%, Light=570lux, Humidity=65.8%, CO2=715ppm
+[2025-07-31 06:05:55.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 36.6%
+[2025-07-31 06:06:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=37.4%, Light=560lux, Humidity=60.1%, CO2=763ppm
+[2025-07-31 06:06:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.7C, Moisture=37.2%, Light=689lux, Humidity=62.1%, CO2=601ppm
+[2025-07-31 06:06:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=46.6%, Light=581lux, Humidity=40.5%, CO2=503ppm
+[2025-07-31 06:06:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=40.7%, Light=614lux, Humidity=44.5%, CO2=709ppm
+[2025-07-31 06:06:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=38.8%, Light=593lux, Humidity=66.7%, CO2=354ppm
+[2025-07-31 06:06:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=41.1%, Light=640lux, Humidity=41.4%, CO2=505ppm
+[2025-07-31 06:06:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=36.7%, Light=617lux, Humidity=46.6%, CO2=601ppm
+[2025-07-31 06:06:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=42.5%, Light=623lux, Humidity=58.9%, CO2=468ppm
+[2025-07-31 06:06:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=37.0%, Light=616lux, Humidity=59.1%, CO2=647ppm
+[2025-07-31 06:06:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=47.4%, Light=617lux, Humidity=58.7%, CO2=493ppm
+[2025-07-31 06:06:45.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:06:45.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:06:45.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[2025-07-31 06:06:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=46.6%, Light=673lux, Humidity=59.5%, CO2=415ppm
+[2025-07-31 06:06:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.9C, Moisture=42.5%, Light=664lux, Humidity=64.9%, CO2=705ppm
+[2025-07-31 06:07:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=38.1%, Light=660lux, Humidity=62.6%, CO2=459ppm
+[2025-07-31 06:07:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.3C, Moisture=45.2%, Light=577lux, Humidity=46.1%, CO2=477ppm
+[2025-07-31 06:07:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=42.2%, Light=692lux, Humidity=63.2%, CO2=782ppm
+[2025-07-31 06:07:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.3C, Moisture=37.2%, Light=513lux, Humidity=42.4%, CO2=583ppm
+[2025-07-31 06:07:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=44.4%, Light=607lux, Humidity=43.8%, CO2=476ppm
+[2025-07-31 06:07:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=47.0%, Light=676lux, Humidity=55.0%, CO2=649ppm
+[2025-07-31 06:07:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.5C, Moisture=36.8%, Light=684lux, Humidity=43.8%, CO2=397ppm
+[2025-07-31 06:07:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=35.9%, Light=519lux, Humidity=45.8%, CO2=374ppm
+[2025-07-31 06:07:35.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 35.9%
+[2025-07-31 06:07:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=45.3%, Light=639lux, Humidity=52.9%, CO2=613ppm
+[2025-07-31 06:07:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.7C, Moisture=43.5%, Light=618lux, Humidity=46.6%, CO2=590ppm
+[2025-07-31 06:07:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=43.6%, Light=657lux, Humidity=48.5%, CO2=458ppm
+[2025-07-31 06:07:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=46.1%, Light=691lux, Humidity=60.3%, CO2=529ppm
+[2025-07-31 06:08:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.3C, Moisture=43.3%, Light=576lux, Humidity=53.0%, CO2=585ppm
+[2025-07-31 06:08:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=46.6%, Light=527lux, Humidity=63.5%, CO2=764ppm
+[2025-07-31 06:08:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.3C, Moisture=35.4%, Light=685lux, Humidity=40.1%, CO2=370ppm
+[2025-07-31 06:08:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=44.2%, Light=532lux, Humidity=40.5%, CO2=557ppm
+[2025-07-31 06:08:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=39.9%, Light=504lux, Humidity=65.0%, CO2=580ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:08:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=37.3%, Light=571lux, Humidity=51.9%, CO2=406ppm
+[2025-07-31 06:08:25.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 37.3%
+[2025-07-31 06:08:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=40.4%, Light=692lux, Humidity=50.2%, CO2=762ppm
+[2025-07-31 06:08:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=36.1%, Light=674lux, Humidity=40.6%, CO2=386ppm
+[2025-07-31 06:08:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.3C, Moisture=40.1%, Light=548lux, Humidity=46.4%, CO2=638ppm
+[2025-07-31 06:08:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=43.3%, Light=641lux, Humidity=65.6%, CO2=399ppm
+[2025-07-31 06:08:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.6C, Moisture=44.7%, Light=587lux, Humidity=43.1%, CO2=773ppm
+[2025-07-31 06:08:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=37.2%, Light=637lux, Humidity=46.0%, CO2=660ppm
+[2025-07-31 06:09:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=36.2%, Light=602lux, Humidity=59.5%, CO2=713ppm
+[2025-07-31 06:09:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.2C, Moisture=40.1%, Light=572lux, Humidity=69.1%, CO2=387ppm
+[2025-07-31 06:09:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=43.8%, Light=531lux, Humidity=68.2%, CO2=715ppm
+[2025-07-31 06:09:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=44.3%, Light=594lux, Humidity=64.9%, CO2=398ppm
+[2025-07-31 06:09:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=44.7%, Light=605lux, Humidity=41.8%, CO2=630ppm
+[2025-07-31 06:09:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=37.9%, Light=526lux, Humidity=62.3%, CO2=480ppm
+[2025-07-31 06:09:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=35.1%, Light=689lux, Humidity=65.9%, CO2=676ppm
+[2025-07-31 06:09:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=36.5%, Light=500lux, Humidity=48.0%, CO2=634ppm
+[2025-07-31 06:09:35] THISISGARBAGE
+[2025-07-31 06:09:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=36.0%, Light=559lux, Humidity=50.5%, CO2=782ppm
+[2025-07-31 06:09:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=43.3%, Light=646lux, Humidity=40.3%, CO2=503ppm
+[2025-07-31 06:09:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=41.5%, Light=518lux, Humidity=47.5%, CO2=407ppm
+[2025-07-31 06:09:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=42.1%, Light=508lux, Humidity=42.5%, CO2=736ppm
+[2025-07-31 06:10:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.3C, Moisture=37.7%, Light=537lux, Humidity=58.5%, CO2=757ppm
+[2025-07-31 06:10:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=46.6%, Light=562lux, Humidity=60.0%, CO2=744ppm
+[2025-07-31 06:10:05.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:10:05.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:10:05.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[2025-07-31 06:10:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=42.9%, Light=523lux, Humidity=68.2%, CO2=713ppm
+[2025-07-31 06:10:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=40.1%, Light=612lux, Humidity=61.6%, CO2=462ppm
+[2025-07-31 06:10:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=35.1%, Light=615lux, Humidity=49.5%, CO2=475ppm
+[2025-07-31 06:10:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=40.6%, Light=584lux, Humidity=57.1%, CO2=438ppm
+[2025-07-31 06:10:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.0C, Moisture=44.4%, Light=556lux, Humidity=68.8%, CO2=380ppm
+[2025-07-31 06:10:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.3C, Moisture=45.6%, Light=571lux, Humidity=60.3%, CO2=475ppm
+[2025-07-31 06:10:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=35.8%, Light=665lux, Humidity=54.5%, CO2=679ppm
+[2025-07-31 06:10:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.7C, Moisture=45.2%, Light=521lux, Humidity=60.4%, CO2=538ppm
+[2025-07-31 06:10:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=41.3%, Light=557lux, Humidity=41.1%, CO2=477ppm
+[2025-07-31 06:10:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=47.3%, Light=567lux, Humidity=67.1%, CO2=609ppm
+[2025-07-31 06:11:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.9C, Moisture=41.0%, Light=602lux, Humidity=48.7%, CO2=560ppm
+[2025-07-31 06:11:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.3C, Moisture=47.9%, Light=558lux, Humidity=60.0%, CO2=587ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:11:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.7C, Moisture=46.9%, Light=627lux, Humidity=48.1%, CO2=763ppm
+[2025-07-31 06:11:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=45.7%, Light=537lux, Humidity=66.7%, CO2=612ppm
+[2025-07-31 06:11:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.3C, Moisture=38.2%, Light=657lux, Humidity=69.7%, CO2=415ppm
+[2025-07-31 06:11:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=38.3%, Light=680lux, Humidity=41.1%, CO2=377ppm
+[2025-07-31 06:11:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=40.6%, Light=667lux, Humidity=51.4%, CO2=569ppm
+[2025-07-31 06:11:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=35.7%, Light=567lux, Humidity=54.3%, CO2=560ppm
+[2025-07-31 06:11:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=47.1%, Light=544lux, Humidity=54.6%, CO2=523ppm
+[2025-07-31 06:11:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=46.6%, Light=631lux, Humidity=61.5%, CO2=456ppm
+[2025-07-31 06:11:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=47.5%, Light=576lux, Humidity=66.8%, CO2=561ppm
+[2025-07-31 06:11:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.9C, Moisture=47.9%, Light=538lux, Humidity=69.3%, CO2=739ppm
+[2025-07-31 06:12:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.0C, Moisture=46.8%, Light=643lux, Humidity=68.3%, CO2=626ppm
+[2025-07-31 06:12:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.2C, Moisture=45.2%, Light=601lux, Humidity=66.3%, CO2=634ppm
+[2025-07-31 06:12:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.5C, Moisture=44.2%, Light=595lux, Humidity=63.8%, CO2=527ppm
+[2025-07-31 06:12:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.9C, Moisture=44.2%, Light=572lux, Humidity=42.2%, CO2=497ppm
+[2025-07-31 06:12:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.6C, Moisture=42.8%, Light=552lux, Humidity=56.1%, CO2=473ppm
+[2025-07-31 06:12:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=37.8%, Light=659lux, Humidity=67.2%, CO2=376ppm
+[2025-07-31 06:12:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=45.9%, Light=574lux, Humidity=68.9%, CO2=634ppm
+[2025-07-31 06:12:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.4C, Moisture=37.6%, Light=544lux, Humidity=54.7%, CO2=642ppm
+[2025-07-31 06:12:35.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 37.6%
+[2025-07-31 06:12:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=48.0%, Light=542lux, Humidity=44.7%, CO2=490ppm
+[2025-07-31 06:12:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=42.6%, Light=672lux, Humidity=57.7%, CO2=731ppm
+[2025-07-31 06:12:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=40.0%, Light=512lux, Humidity=58.7%, CO2=377ppm
+[2025-07-31 06:12:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.6C, Moisture=47.8%, Light=661lux, Humidity=43.8%, CO2=696ppm
+[2025-07-31 06:13:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.8C, Moisture=36.8%, Light=561lux, Humidity=66.2%, CO2=581ppm
+[2025-07-31 06:13:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=44.0%, Light=522lux, Humidity=46.0%, CO2=353ppm
+[2025-07-31 06:13:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=47.2%, Light=668lux, Humidity=59.0%, CO2=357ppm
+[2025-07-31 06:13:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.9C, Moisture=46.1%, Light=590lux, Humidity=59.6%, CO2=628ppm
+[2025-07-31 06:13:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.2C, Moisture=47.7%, Light=512lux, Humidity=66.0%, CO2=366ppm
+[2025-07-31 06:13:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=40.8%, Light=597lux, Humidity=43.4%, CO2=369ppm
+[2025-07-31 06:13:25.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:13:25.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:13:25.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[2025-07-31 06:13:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=45.6%, Light=574lux, Humidity=51.7%, CO2=709ppm
+[2025-07-31 06:13:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=40.1%, Light=500lux, Humidity=58.0%, CO2=645ppm
+[2025-07-31 06:13:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=45.8%, Light=585lux, Humidity=45.5%, CO2=560ppm
+[2025-07-31 06:13:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=36.7%, Light=527lux, Humidity=60.4%, CO2=641ppm
+[2025-07-31 06:13:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=43.1%, Light=692lux, Humidity=57.8%, CO2=412ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:13:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=37.6%, Light=590lux, Humidity=54.8%, CO2=555ppm
+[2025-07-31 06:14:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=46.8%, Light=650lux, Humidity=57.2%, CO2=737ppm
+[2025-07-31 06:14:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=39.9%, Light=665lux, Humidity=66.1%, CO2=789ppm
+[2025-07-31 06:14:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=41.7%, Light=521lux, Humidity=68.3%, CO2=741ppm
+[2025-07-31 06:14:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.6C, Moisture=46.1%, Light=669lux, Humidity=63.5%, CO2=644ppm
+[2025-07-31 06:14:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.8C, Moisture=37.6%, Light=504lux, Humidity=42.2%, CO2=650ppm
+[2025-07-31 06:14:20] THISISGARBAGE
+[2025-07-31 06:14:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=44.7%, Light=623lux, Humidity=45.7%, CO2=590ppm
+[2025-07-31 06:14:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.6C, Moisture=39.0%, Light=550lux, Humidity=54.1%, CO2=682ppm
+[2025-07-31 06:14:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=44.8%, Light=660lux, Humidity=51.0%, CO2=553ppm
+[2025-07-31 06:14:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=45.7%, Light=635lux, Humidity=42.0%, CO2=623ppm
+[2025-07-31 06:14:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=37.6%, Light=679lux, Humidity=66.5%, CO2=665ppm
+[2025-07-31 06:14:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=39.9%, Light=629lux, Humidity=60.4%, CO2=405ppm
+[2025-07-31 06:14:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=46.5%, Light=652lux, Humidity=66.1%, CO2=777ppm
+[2025-07-31 06:15:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.8C, Moisture=47.1%, Light=595lux, Humidity=64.3%, CO2=597ppm
+[2025-07-31 06:15:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=42.8%, Light=596lux, Humidity=61.9%, CO2=763ppm
+[2025-07-31 06:15:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=37.1%, Light=660lux, Humidity=58.6%, CO2=609ppm
+[2025-07-31 06:15:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=44.9%, Light=538lux, Humidity=45.0%, CO2=542ppm
+[2025-07-31 06:15:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.7C, Moisture=42.7%, Light=586lux, Humidity=42.1%, CO2=740ppm
+[2025-07-31 06:15:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=42.3%, Light=688lux, Humidity=41.7%, CO2=620ppm
+[2025-07-31 06:15:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=38.8%, Light=689lux, Humidity=49.0%, CO2=388ppm
+[2025-07-31 06:15:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=36.4%, Light=513lux, Humidity=57.9%, CO2=420ppm
+[2025-07-31 06:15:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=44.9%, Light=573lux, Humidity=61.1%, CO2=796ppm
+[2025-07-31 06:15:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=35.7%, Light=525lux, Humidity=51.6%, CO2=472ppm
+[2025-07-31 06:15:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.7C, Moisture=43.3%, Light=679lux, Humidity=68.8%, CO2=364ppm
+[2025-07-31 06:15:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.5C, Moisture=43.6%, Light=522lux, Humidity=68.1%, CO2=534ppm
+[2025-07-31 06:16:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=36.4%, Light=695lux, Humidity=63.0%, CO2=711ppm
+[2025-07-31 06:16:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=47.9%, Light=690lux, Humidity=46.9%, CO2=615ppm
+[2025-07-31 06:16:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.2C, Moisture=40.2%, Light=562lux, Humidity=45.4%, CO2=441ppm
+[2025-07-31 06:16:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=44.9%, Light=600lux, Humidity=48.0%, CO2=644ppm
+[2025-07-31 06:16:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.1C, Moisture=36.2%, Light=614lux, Humidity=64.0%, CO2=736ppm
+[2025-07-31 06:16:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=47.5%, Light=589lux, Humidity=56.7%, CO2=390ppm
+[2025-07-31 06:16:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=45.3%, Light=582lux, Humidity=41.8%, CO2=672ppm
+[2025-07-31 06:16:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=44.0%, Light=562lux, Humidity=56.1%, CO2=407ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:16:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.6C, Moisture=37.3%, Light=526lux, Humidity=66.3%, CO2=683ppm
+[2025-07-31 06:16:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=45.9%, Light=618lux, Humidity=57.6%, CO2=502ppm
+[2025-07-31 06:16:45.000] ERROR PumpCtrl[id=2001]: Irrigation pump failed to start
+[2025-07-31 06:16:45.000] DEBUG SensorHub: Retrying pump startup...
+[2025-07-31 06:16:45.000] INFO  PumpCtrl[id=2001]: Pump started successfully after retry
+[2025-07-31 06:16:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.2C, Moisture=35.0%, Light=654lux, Humidity=42.6%, CO2=628ppm
+[2025-07-31 06:16:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=45.1%, Light=600lux, Humidity=64.4%, CO2=513ppm
+[2025-07-31 06:17:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.9C, Moisture=40.6%, Light=682lux, Humidity=49.1%, CO2=485ppm
+[2025-07-31 06:17:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.4C, Moisture=38.2%, Light=617lux, Humidity=62.5%, CO2=657ppm
+[2025-07-31 06:17:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=41.9%, Light=695lux, Humidity=45.7%, CO2=563ppm
+[2025-07-31 06:17:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.2C, Moisture=36.2%, Light=611lux, Humidity=56.4%, CO2=380ppm
+[2025-07-31 06:17:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.1C, Moisture=38.1%, Light=700lux, Humidity=53.3%, CO2=598ppm
+[2025-07-31 06:17:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=35.3%, Light=661lux, Humidity=52.5%, CO2=694ppm
+[2025-07-31 06:17:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.5C, Moisture=41.4%, Light=685lux, Humidity=41.6%, CO2=700ppm
+[2025-07-31 06:17:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.6C, Moisture=35.0%, Light=530lux, Humidity=52.1%, CO2=758ppm
+[2025-07-31 06:17:35.000] WARN  MoistureMonitor[id=1002]: Moisture dropped to 35.0%
+[2025-07-31 06:17:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=35.8%, Light=597lux, Humidity=58.9%, CO2=760ppm
+[2025-07-31 06:17:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.5C, Moisture=42.9%, Light=692lux, Humidity=57.9%, CO2=441ppm
+[2025-07-31 06:17:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=36.4%, Light=529lux, Humidity=61.3%, CO2=614ppm
+[2025-07-31 06:17:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.4C, Moisture=45.3%, Light=521lux, Humidity=48.1%, CO2=789ppm
+[2025-07-31 06:18:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.0C, Moisture=36.7%, Light=530lux, Humidity=59.6%, CO2=735ppm
+[2025-07-31 06:18:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=38.2%, Light=518lux, Humidity=52.5%, CO2=670ppm
+[2025-07-31 06:18:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.4C, Moisture=40.3%, Light=572lux, Humidity=53.0%, CO2=694ppm
+[2025-07-31 06:18:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=35.2%, Light=601lux, Humidity=59.3%, CO2=711ppm
+[2025-07-31 06:18:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=37.0%, Light=513lux, Humidity=47.1%, CO2=781ppm
+[2025-07-31 06:18:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=40.0%, Light=668lux, Humidity=61.0%, CO2=430ppm
+[2025-07-31 06:18:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.1C, Moisture=36.8%, Light=562lux, Humidity=47.7%, CO2=382ppm
+[2025-07-31 06:18:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.2C, Moisture=35.6%, Light=691lux, Humidity=65.6%, CO2=549ppm
+[2025-07-31 06:18:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.0C, Moisture=43.4%, Light=691lux, Humidity=56.2%, CO2=522ppm
+[2025-07-31 06:18:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.3C, Moisture=46.3%, Light=554lux, Humidity=42.7%, CO2=390ppm
+[2025-07-31 06:18:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=44.8%, Light=524lux, Humidity=51.8%, CO2=376ppm
+[2025-07-31 06:18:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.2C, Moisture=40.1%, Light=605lux, Humidity=51.3%, CO2=377ppm
+[2025-07-31 06:19:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=41.2%, Light=534lux, Humidity=42.5%, CO2=506ppm
+[2025-07-31 06:19:05.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.0C, Moisture=36.3%, Light=514lux, Humidity=44.3%, CO2=699ppm
+[2025-07-31 06:19:05] THISISGARBAGE
+[2025-07-31 06:19:10.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.3C, Moisture=46.1%, Light=604lux, Humidity=58.7%, CO2=380ppm
+[2025-07-31 06:19:15.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=46.2%, Light=531lux, Humidity=49.0%, CO2=479ppm
+[2025-07-31 06:19:20.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.0C, Moisture=44.1%, Light=653lux, Humidity=69.3%, CO2=354ppm
+[MALFORMED LINE NO TIMESTAMP OR FORMAT]
+[2025-07-31 06:19:25.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=25.0C, Moisture=45.6%, Light=672lux, Humidity=49.3%, CO2=475ppm
+[2025-07-31 06:19:30.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=22.7C, Moisture=38.0%, Light=600lux, Humidity=63.5%, CO2=504ppm
+[2025-07-31 06:19:35.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=46.1%, Light=508lux, Humidity=68.9%, CO2=388ppm
+[2025-07-31 06:19:40.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=23.8C, Moisture=40.8%, Light=684lux, Humidity=51.8%, CO2=660ppm
+[2025-07-31 06:19:45.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.5C, Moisture=42.1%, Light=625lux, Humidity=64.3%, CO2=525ppm
+[2025-07-31 06:19:50.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=26.1C, Moisture=42.7%, Light=695lux, Humidity=43.6%, CO2=443ppm
+[2025-07-31 06:19:55.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.3C, Moisture=36.5%, Light=700lux, Humidity=66.9%, CO2=743ppm
+[2025-07-31 06:20:00.000] INFO  SensorData[id=1001,1002,1003,1004,1005]: Temp=24.9C, Moisture=41.7%, Light=523lux, Humidity=67.9%, CO2=452ppm

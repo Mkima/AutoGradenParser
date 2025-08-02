@@ -1,0 +1,99 @@
+{
+  "vegetables": {
+    "tomato": {
+      "temperature": {
+        "min": 18.0,
+        "max": 27.0
+      },
+      "moisture": {
+        "min": 50.0,
+        "max": 70.0
+      },
+      "light": {
+        "min": 600,
+        "max": 900
+      },
+      "humidity": {
+        "min": 60.0,
+        "max": 80.0
+      },
+      "co2": {
+        "min": 400,
+        "max": 1000
+      }
+    },
+    "lettuce": {
+      "temperature": {
+        "min": 15.0,
+        "max": 21.0
+      },
+      "moisture": {
+        "min": 60.0,
+        "max": 80.0
+      },
+      "light": {
+        "min": 500,
+        "max": 700
+      },
+      "humidity": {
+        "min": 55.0,
+        "max": 70.0
+      },
+      "co2": {
+        "min": 350,
+        "max": 900
+      }
+    },
+    "cucumber": {
+      "temperature": {
+        "min": 20.0,
+        "max": 28.0
+      },
+      "moisture": {
+        "min": 65.0,
+        "max": 85.0
+      },
+      "light": {
+        "min": 550,
+        "max": 850
+      },
+      "humidity": {
+        "min": 65.0,
+        "max": 85.0
+      },
+      "co2": {
+        "min": 450,
+        "max": 1100
+      }
+    },
+    "pepper": {
+      "temperature": {
+        "min": 18.0,
+        "max": 26.0
+      },
+      "moisture": {
+        "min": 55.0,
+        "max": 75.0
+      },
+      "light": {
+        "min": 600,
+        "max": 850
+      },
+      "humidity": {
+        "min": 60.0,
+        "max": 75.0
+      },
+      "co2": {
+        "min": 400,
+        "max": 1000
+      }
+    }
+  },
+  "garden_map": {
+    "garden_1": "tomato",
+    "garden_2": "lettuce",
+    "garden_3": "cucumber",
+    "garden_4": "pepper",
+    "garden_5": "lettuce"
+  }
+}
