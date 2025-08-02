@@ -86,7 +86,8 @@ Automated suggestions based on sensor readings:
 
 
 ## Up Next:
-* Add an MCP to feed the data to an LLM model for wizer analysis
+* Add an MCP server to feed the data to an LLM model.
+* connect the parser to online Arduino output.
 * Add streamlit to explore data and charts easier.
 
 
